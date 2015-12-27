@@ -19,10 +19,9 @@ public class GameManager : MonoBehaviour {
 		grid = new int[8,8];
 
 		boardInstance = Instantiate (boardPrefab) as Board;
+		boardInstance.transform.localPosition = new Vector3 (-3.5f, -3.5f, 0);
 
 		boardInstance.generate ();
-
-		// boardInstance.populate ();
 
 	}
 	

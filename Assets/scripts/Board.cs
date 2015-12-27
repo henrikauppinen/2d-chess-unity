@@ -39,6 +39,7 @@ public class Board : MonoBehaviour {
 		newCell.x = posx;
 		newCell.y = posy;
 
+		newCell.transform.parent = transform;
 		newCell.transform.localPosition = new Vector3 (posx , posy, 0);
 
 		newCell.name = "Board cell [" + posx + "," + posy + "]";
