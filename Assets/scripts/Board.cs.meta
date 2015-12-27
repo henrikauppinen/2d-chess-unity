@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9bc825550e66547679a745bc00a333a4
+timeCreated: 1451039737
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - CellPrefab: {fileID: 11471870, guid: 4f3630426dd7f46ba856e560c73aee89, type: 2}
+  - PawnPrefab: {fileID: 153518, guid: 48b6a2a968c60484e8632c340c224a02, type: 2}
+  - blackMaterial: {fileID: 2100000, guid: f8d59e6b7c91f483b91cdcc5d9d9ec7b, type: 2}
+  - whiteMaterial: {fileID: 2100000, guid: 4992d016c9e144669ba24e2061a138b2, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
